@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
   styles: [],
 })
 export class SquareComponent {
-  @Input() value: 'X' | 'O' = 'X';
+  @Input() public value: 'X' | 'O' = 'X';
 }
